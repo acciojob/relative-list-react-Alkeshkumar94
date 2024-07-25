@@ -3,7 +3,7 @@ import React from 'react'
 const App = () => {
   const relatives=["Uncle Bob", "Aunt Alice", "Cousin John", "Grandma Marie", "Grandpa Joe"];
   return (
-    <div key="main">
+    <div id="main">
           <ol key="relativeList">
             {
                relatives.map((relative,index)=>(
